@@ -1,0 +1,291 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,300&family=Montserrat&family=Open+Sans:wght@300&family=Poor+Story&family=Roboto+Mono&family=Roboto:wght@300&family=Rubik+Bubbles&family=Seymour+One&family=Ubuntu:ital,wght@1,500&family=Xanh+Mono:ital@1&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&family=Lato:ital,wght@1,300&family=Montserrat&family=Open+Sans:wght@300&family=Poor+Story&family=Roboto+Mono&family=Roboto:wght@300&family=Rubik+Bubbles&family=Seymour+One&family=Source+Code+Pro&family=Ubuntu:ital,wght@1,500&family=Xanh+Mono:ital@1&display=swap");
+
+.Bro li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: gray;
+  width: 10vw;
+  height: 100vh;
+  transition: transform 0.3s ease-in-out;
+  position: absolute;
+}
+.main {
+  background-color: white;
+  width: 90vw;
+  height: 90vh;
+}
+.container {
+  display: flex;
+}
+.sidebar ul {
+  padding: 30px;
+}
+.sidebar ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  padding: 33px 0;
+  list-style: none;
+  font-weight: 300;
+}
+.devimg img {
+  width: 20vw;
+  height: 70vh;
+  margin-top: 22px;
+}
+.pageinfo {
+  background-color: white;
+  height: 70vh;
+  width: 70vw;
+  display: flex;
+  margin: 50px 109px;
+  justify-content: space-around;
+}
+.textinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.greet {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.6rem;
+}
+.name {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+}
+.about {
+  font-size: 4rem;
+  font-family: "Poor Story", cursive;
+}
+.btns button {
+  font-size: 2rem;
+  font-family: "Seymour One", sans-serif;
+  border: solid black 2px;
+  border-radius: 27px;
+  background-color: rgb(9, 198, 240);
+  box-shadow: 2px 2px;
+}
+.btns {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  width: 472px;
+}
+.btns button:hover {
+  background-color: white;
+}
+.contactform {
+  display: flex;
+  justify-content: space-around;
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,300&family=Montserrat&family=Open+Sans:wght@300&family=Poor+Story&family=Roboto+Mono&family=Roboto:wght@300&family=Rubik+Bubbles&family=Seymour+One&family=Ubuntu:ital,wght@1,500&family=Xanh+Mono:ital@1&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&family=Lato:ital,wght@1,300&family=Montserrat&family=Open+Sans:wght@300&family=Poor+Story&family=Roboto+Mono&family=Roboto:wght@300&family=Rubik+Bubbles&family=Seymour+One&family=Ubuntu:ital,wght@1,500&family=Xanh+Mono:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(186, 177, 177);
+  width: 10vw;
+  height: 100vh;
+}
+.main {
+  background-color: white;
+  width: 90vw;
+  height: 90vh;
+}
+.container {
+  display: flex;
+}
+.sidebar ul {
+  padding: 30px;
+}
+.sidebar ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  padding: 33px 0;
+  list-style: none;
+  font-weight: 300;
+}
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  text-align: center;
+  margin: 51px;
+}
+form {
+  font-family: "Rubik Bubbles", cursive;
+  font-size: 23px;
+  padding: 56px;
+}
+form div {
+  display: flex;
+  font-family: "Rubik Bubbles", cursive;
+  font-size: 23px;
+  padding: 56px;
+  flex-direction: column;
+}
+#exampleCheck1 {
+  width: 20px;
+  height: 20px;
+  font-family: "Courier Prime", monospace;
+  font-size: 20px;
+  font-style: oblique;
+  border-radius: 12px;
+  margin: 6px 0 0 0;
+}
+#exampleInputPassword1 {
+  width: 200px;
+  height: 30px;
+  font-family: "Courier Prime", monospace;
+  font-size: 20px;
+  font-style: oblique;
+  border-radius: 12px;
+  margin: 6px 0 0 0;
+}
+#exampleInputEmail1 {
+  width: 200px;
+  height: 30px;
+  font-family: "Courier Prime", monospace;
+  font-size: 20px;
+  font-style: oblique;
+  border-radius: 12px;
+  margin: 6px 0 0 0;
+}
+#exampleInputEnquiry {
+  width: 200px;
+  border-radius: 12px;
+  height: 30px;
+  font-family: "Courier Prime", monospace;
+  font-size: 20px;
+  font-style: oblique;
+  margin: 6px 0 0 0;
+}
+.Emailadd {
+  padding: 26px 0;
+}
+.mb-3 {
+  padding: 10px 0;
+}
+#emailHelp {
+  color: blue;
+  padding: 12px 0;
+  font-size: 15px;
+}
+.Enquiry {
+  padding: 12px 0;
+}
+#fom {
+  display: block;
+}
+.Raghav {
+  font-family: "Seymour One", sans-serif;
+}
+.Learnjs {
+  text-align: left;
+  margin: 15px 15px;
+  font-family: "Source Code Pro", monospace;
+}
+.lorem1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin: 0 20px;
+}
+.btns {
+  justify-content: flex-start;
+  width: 353px;
+  height: 40px;
+  font-size: 10px;
+}
+.btn1 {
+  font-size: 20px;
+  margin: 0 30px;
+}
+.Aboutme {
+  text-align: left;
+}
+.Myskills {
+  margin: 15px 30px;
+  text-align: left;
+}
+.bitem {
+  display: flex;
+  margin: 5px 10px;
+  font-family: "Poor Story", cursive;
+  font-size: 30px;
+}
+
+.hund {
+  background-color: red;
+  border: 2px solid black;
+  width: 100vw;
+  border-radius: 14px;
+}
+.sevenfive {
+  border-radius: 14px;
+  background-color: red;
+  border: 2px solid black;
+  width: 75vw;
+}
+.twofive {
+  background-color: yellow;
+  border-radius: 14px;
+  border: 2px solid black;
+  width: 25vw;
+}
+.fivezero {
+  background-color: red;
+  border: 2px solid black;
+  width: 50vw;
+  border-radius: 14px;
+}
+.fourfive {
+  background-color: yellow;
+  border-radius: 14px;
+  border: 2px solid black;
+  width: 45vw;
+}
+.hambgr {
+  position: absolute;
+  cursor: pointer;
+  left: 5px;
+  top: 7px;
+}
+.sidebargo {
+  position: absolute;
+  transform: translate(-443px, 0px);
+}
+
+.hambgr img {
+  width: 43px;
+  height: 32px;
+}
+#croos img {
+  width: 42px;
+  height: 39spx;
+}
+#croos {
+  position: absolute;
+  left: 108px;
+  top: 4px;
+  cursor: pointer;
+}
+@media screen and (max-width: 995px), screen and (max-height: 700px) {
+  .devimg {
+    display: none;
+  }
+  * {
+    /* background-color: black; */
+  }
+}
